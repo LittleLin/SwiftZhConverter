@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8BC55321AE9CFAB0044916C /* SwiftZhConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BC55311AE9CFAB0044916C /* SwiftZhConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8BC55381AE9CFAB0044916C /* SwiftZhConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BC552C1AE9CFAB0044916C /* SwiftZhConverter.framework */; };
+		F8BC553F1AE9CFAB0044916C /* SwiftZhConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC553E1AE9CFAB0044916C /* SwiftZhConverterTests.swift */; };
+		F8BC55501AE9D0100044916C /* ZhConverterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC55481AE9D0100044916C /* ZhConverterFactory.swift */; };
+		F8BC55511AE9D0100044916C /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC55491AE9D0100044916C /* StringExt.swift */; };
+		F8BC55521AE9D0100044916C /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC554A1AE9D0100044916C /* StreamReader.swift */; };
+		F8BC55531AE9D0100044916C /* ZhConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC554B1AE9D0100044916C /* ZhConverter.swift */; };
+		F8BC55541AE9D0100044916C /* TraditionalZhConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC554C1AE9D0100044916C /* TraditionalZhConverter.swift */; };
+		F8BC55551AE9D0100044916C /* SimplifiedZhConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC554D1AE9D0100044916C /* SimplifiedZhConverter.swift */; };
+		F8BC55561AE9D0100044916C /* word_t2s.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8BC554E1AE9D0100044916C /* word_t2s.txt */; };
+		F8BC55571AE9D0100044916C /* word_s2t.txt in Resources */ = {isa = PBXBuildFile; fileRef = F8BC554F1AE9D0100044916C /* word_s2t.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BC55391AE9CFAB0044916C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BC55231AE9CFAB0044916C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BC552B1AE9CFAB0044916C;
+			remoteInfo = SwiftZhConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8BC552C1AE9CFAB0044916C /* SwiftZhConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftZhConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BC55301AE9CFAB0044916C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BC55311AE9CFAB0044916C /* SwiftZhConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftZhConverter.h; sourceTree = "<group>"; };
+		F8BC55371AE9CFAB0044916C /* SwiftZhConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftZhConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BC553D1AE9CFAB0044916C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BC553E1AE9CFAB0044916C /* SwiftZhConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZhConverterTests.swift; sourceTree = "<group>"; };
+		F8BC55481AE9D0100044916C /* ZhConverterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZhConverterFactory.swift; sourceTree = "<group>"; };
+		F8BC55491AE9D0100044916C /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		F8BC554A1AE9D0100044916C /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		F8BC554B1AE9D0100044916C /* ZhConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZhConverter.swift; sourceTree = "<group>"; };
+		F8BC554C1AE9D0100044916C /* TraditionalZhConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraditionalZhConverter.swift; sourceTree = "<group>"; };
+		F8BC554D1AE9D0100044916C /* SimplifiedZhConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifiedZhConverter.swift; sourceTree = "<group>"; };
+		F8BC554E1AE9D0100044916C /* word_t2s.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word_t2s.txt; sourceTree = "<group>"; };
+		F8BC554F1AE9D0100044916C /* word_s2t.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word_s2t.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BC55281AE9CFAB0044916C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BC55341AE9CFAB0044916C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BC55381AE9CFAB0044916C /* SwiftZhConverter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8BC55221AE9CFAB0044916C = {
+			isa = PBXGroup;
+			children = (
+				F8BC552E1AE9CFAB0044916C /* SwiftZhConverter */,
+				F8BC553B1AE9CFAB0044916C /* SwiftZhConverterTests */,
+				F8BC552D1AE9CFAB0044916C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BC552D1AE9CFAB0044916C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC552C1AE9CFAB0044916C /* SwiftZhConverter.framework */,
+				F8BC55371AE9CFAB0044916C /* SwiftZhConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BC552E1AE9CFAB0044916C /* SwiftZhConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC55481AE9D0100044916C /* ZhConverterFactory.swift */,
+				F8BC55491AE9D0100044916C /* StringExt.swift */,
+				F8BC554A1AE9D0100044916C /* StreamReader.swift */,
+				F8BC554B1AE9D0100044916C /* ZhConverter.swift */,
+				F8BC554C1AE9D0100044916C /* TraditionalZhConverter.swift */,
+				F8BC554D1AE9D0100044916C /* SimplifiedZhConverter.swift */,
+				F8BC554E1AE9D0100044916C /* word_t2s.txt */,
+				F8BC554F1AE9D0100044916C /* word_s2t.txt */,
+				F8BC55311AE9CFAB0044916C /* SwiftZhConverter.h */,
+				F8BC552F1AE9CFAB0044916C /* Supporting Files */,
+			);
+			path = SwiftZhConverter;
+			sourceTree = "<group>";
+		};
+		F8BC552F1AE9CFAB0044916C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC55301AE9CFAB0044916C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8BC553B1AE9CFAB0044916C /* SwiftZhConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC553E1AE9CFAB0044916C /* SwiftZhConverterTests.swift */,
+				F8BC553C1AE9CFAB0044916C /* Supporting Files */,
+			);
+			path = SwiftZhConverterTests;
+			sourceTree = "<group>";
+		};
+		F8BC553C1AE9CFAB0044916C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC553D1AE9CFAB0044916C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F8BC55291AE9CFAB0044916C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BC55321AE9CFAB0044916C /* SwiftZhConverter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F8BC552B1AE9CFAB0044916C /* SwiftZhConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BC55421AE9CFAB0044916C /* Build configuration list for PBXNativeTarget "SwiftZhConverter" */;
+			buildPhases = (
+				F8BC55271AE9CFAB0044916C /* Sources */,
+				F8BC55281AE9CFAB0044916C /* Frameworks */,
+				F8BC55291AE9CFAB0044916C /* Headers */,
+				F8BC552A1AE9CFAB0044916C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftZhConverter;
+			productName = SwiftZhConverter;
+			productReference = F8BC552C1AE9CFAB0044916C /* SwiftZhConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8BC55361AE9CFAB0044916C /* SwiftZhConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BC55451AE9CFAB0044916C /* Build configuration list for PBXNativeTarget "SwiftZhConverterTests" */;
+			buildPhases = (
+				F8BC55331AE9CFAB0044916C /* Sources */,
+				F8BC55341AE9CFAB0044916C /* Frameworks */,
+				F8BC55351AE9CFAB0044916C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BC553A1AE9CFAB0044916C /* PBXTargetDependency */,
+			);
+			name = SwiftZhConverterTests;
+			productName = SwiftZhConverterTests;
+			productReference = F8BC55371AE9CFAB0044916C /* SwiftZhConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BC55231AE9CFAB0044916C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LittleLin;
+				TargetAttributes = {
+					F8BC552B1AE9CFAB0044916C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F8BC55361AE9CFAB0044916C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = F8BC55261AE9CFAB0044916C /* Build configuration list for PBXProject "SwiftZhConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8BC55221AE9CFAB0044916C;
+			productRefGroup = F8BC552D1AE9CFAB0044916C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BC552B1AE9CFAB0044916C /* SwiftZhConverter */,
+				F8BC55361AE9CFAB0044916C /* SwiftZhConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BC552A1AE9CFAB0044916C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BC55571AE9D0100044916C /* word_s2t.txt in Resources */,
+				F8BC55561AE9D0100044916C /* word_t2s.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BC55351AE9CFAB0044916C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BC55271AE9CFAB0044916C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BC55521AE9D0100044916C /* StreamReader.swift in Sources */,
+				F8BC55541AE9D0100044916C /* TraditionalZhConverter.swift in Sources */,
+				F8BC55511AE9D0100044916C /* StringExt.swift in Sources */,
+				F8BC55531AE9D0100044916C /* ZhConverter.swift in Sources */,
+				F8BC55551AE9D0100044916C /* SimplifiedZhConverter.swift in Sources */,
+				F8BC55501AE9D0100044916C /* ZhConverterFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BC55331AE9CFAB0044916C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BC553F1AE9CFAB0044916C /* SwiftZhConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BC553A1AE9CFAB0044916C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BC552B1AE9CFAB0044916C /* SwiftZhConverter */;
+			targetProxy = F8BC55391AE9CFAB0044916C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8BC55401AE9CFAB0044916C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8BC55411AE9CFAB0044916C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8BC55431AE9CFAB0044916C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftZhConverter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8BC55441AE9CFAB0044916C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftZhConverter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F8BC55461AE9CFAB0044916C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftZhConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8BC55471AE9CFAB0044916C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftZhConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BC55261AE9CFAB0044916C /* Build configuration list for PBXProject "SwiftZhConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BC55401AE9CFAB0044916C /* Debug */,
+				F8BC55411AE9CFAB0044916C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BC55421AE9CFAB0044916C /* Build configuration list for PBXNativeTarget "SwiftZhConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BC55431AE9CFAB0044916C /* Debug */,
+				F8BC55441AE9CFAB0044916C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8BC55451AE9CFAB0044916C /* Build configuration list for PBXNativeTarget "SwiftZhConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BC55461AE9CFAB0044916C /* Debug */,
+				F8BC55471AE9CFAB0044916C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BC55231AE9CFAB0044916C /* Project object */;
+}
